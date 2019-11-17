@@ -9,7 +9,7 @@ $(function() {
 		$(".story").find(".jg").hide();
 	} else {
 		// setTimeout(function() {
-			loadSrc(siteConfig.imgUrl + "/cn/images/video.js", function() {
+			loadSrc(siteConfig.imgUrl + "/cn/images/video.js", function(88888) {
 				videojs.options.flash.swf = siteConfig.apiUrl + "/cn/images/video-js.swf";
 				$(".box1").each(function(i, item) {
 					$(this).find("video").attr("id", "boxVideo" + i)
@@ -698,4 +698,8 @@ function getClientHeight() {
 		var clientHeight = (document.body.clientHeight > document.documentElement.clientHeight) ? document.body.clientHeight : document.documentElement.clientHeight;
 	}
 	return clientHeight;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ff2be6612811b4bdece2380dab2b4ab278075bce
